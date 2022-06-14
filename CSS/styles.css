@@ -80,7 +80,8 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    margin-right: 25px;
+    margin-right: 30px;
+    margin-left: 10px;
 }
 .e-mail:hover{
     color:#2196F3;
@@ -94,11 +95,27 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .phone-number:hover{
     color:#2196F3;
 }
+
+.contact{
+    display: inline-flex;        
+}
+
+.icon-envelop{
+    width: 16px;
+    height: 12px;
+}
+.icon-smartphone{
+    width: 10px;
+    height: 16px;
+}
+
+
+
 /* Stopka */
 
 .footer{
@@ -268,14 +285,15 @@ body{
    display:flex;
    justify-content: center;
    align-items: center;
-   background-image: url(/images/group.jpg);
+   background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4)), url(/images/group.jpg);
    background-repeat: no-repeat;
-   background-size: 1600px;
+   background-size: cover;
    background-position: center;
-  
-   
    }
-   
+ 
+
+
 .title-and-button{
     display: flex;
     flex-direction: column;
@@ -314,12 +332,32 @@ body{
     letter-spacing: 0.06em;
     color:#FFFFFF;
     cursor: pointer;
-    
     padding: 0px;   
     }
 
 
-/*lorem list*/
+/*lorem list nasze atuty*/
+.assets-icons-list{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    }
+
+.assets-icons{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+   
+    }
+.icons{
+    width: 70px;
+    height: 70px;
+}
+
 .lorem-list{
     list-style-type: none;
     display: flex;
@@ -390,9 +428,8 @@ body{
     margin: 0px;
 }
 
-
 .person{
-    height: 368px;
+    height: 428px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -420,4 +457,30 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
     margin: 0px;
+}
+.social-list{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;       
+}
+.social-links-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px; 
+}
+
+.social-links-item:hover{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: #2196F3;    
+    border-radius: 50%;
 }
