@@ -102,20 +102,9 @@ body{
     color:#2196F3;
 }
 
-
 .contact{
     display: inline-flex;        
 }
-
-.icon-envelop{
-    width: 16px;
-    height: 12px;
-}
-.icon-smartphone{
-    width: 10px;
-    height: 16px;
-}
-
 
 
 /* Stopka */
@@ -174,6 +163,47 @@ body{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    }
+
+.footer-social-link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+.footer-social-list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;  
+        margin-top: 16px;   
+        padding: 0px; 
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+    
+.footer-social-icons{
+        width: 20px;
+        height: 20px;
+        align-items: center; 
+    }
+    
+.footer-social-links-item{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.1);   
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .footer-social-links-item:hover{
+        background-color: #2196F3;  
     }
 
     /* protfolio bottom */
@@ -342,19 +372,25 @@ body{
 .assets-icons-list{
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0px;
     margin: 0px;
     margin-bottom: 30px;
-    justify-content: space-between;
-    }
+    }  
+
 
 .assets-icons{
     width: 270px;
     height: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
-   
     }
+
 .icons{
     width: 70px;
     height: 70px;
@@ -526,13 +562,6 @@ body{
     border-radius: 4px;   
 }
 
-.customer-list-item:hover {
-    border: 1px solid #2196F3;
-  }
-  
-.customer-list-item:hover svg {
-   fill: #2196F3;
-  }
 .customer-icons{
     height: 46.7px;
 }
