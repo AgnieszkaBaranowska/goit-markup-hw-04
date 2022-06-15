@@ -7,6 +7,7 @@ body{
 .container{
    width: 1200px;
    margin: 0 auto;
+   padding: 0px;
 }
 
 .section{
@@ -100,6 +101,7 @@ body{
 .phone-number:hover{
     color:#2196F3;
 }
+
 
 .contact{
     display: inline-flex;        
@@ -460,27 +462,77 @@ body{
 }
 .social-list{
     list-style: none;
-    padding: 0px;
     display: flex;
-    justify-content: space-between;       
-}
-.social-links-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px; 
+    justify-content: space-between; 
+    align-items: center;  
+    margin-top: 16px;   
+    padding: 0px; 
+    margin-right: 32px;
+    margin-left: 32px;
 }
 
-.social-links-item:hover{
+.social-icons{
+    width: 20px;
+    height: 20px;
+    align-items: center; 
+}
+
+.social-links-item{
+    justify-content: center;
+    align-items: center;
     display: flex;
     width: 44px;
     height: 44px;
-    background-color: #2196F3;    
+    background-color:#FFFFFF;    
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-links-item:hover{
+    background-color: #2196F3;    
+}
+  
+.social-list-item:hover svg {
+   color: #FFFFFF;;
+  }
+
+
+/* sekcja nasi klienci */
+.our-customer{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0px;
+    margin-bottom: 50px;
+   }
+
+.customer-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 0px;     
+}
+.customer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    width: 170px;
+    height: 92px;    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;   
+}
+
+.customer-list-item:hover {
+    border: 1px solid #2196F3;
+  }
+  
+.customer-list-item:hover svg {
+   fill: #2196F3;
+  }
+.customer-icons{
+    height: 46.7px;
 }
