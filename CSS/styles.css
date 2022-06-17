@@ -211,6 +211,9 @@ body{
     .footer-social-links-item:hover{
         background-color: #2196F3;  
     }
+.footer-social-icons:hover{
+    fill: #FFFFFF;
+}
 
     /* protfolio bottom */
 
@@ -229,7 +232,7 @@ body{
     cursor: pointer;
     margin-left: 8px;
     }
-    
+
 .filtr:hover,
 .filtr:focus{
     background-color:#2196F3;
@@ -401,6 +404,10 @@ body{
     border-radius: 4px;
     }
 
+.icons:hover{
+    fill:#2196F3;
+}
+
 .icons{
     width: 70px;
     height: 70px;
@@ -520,6 +527,7 @@ body{
     width: 20px;
     height: 20px;
     align-items: center; 
+    
 }
 
 .social-links-item{
@@ -530,10 +538,14 @@ body{
     height: 44px;    
     border-radius: 50%;
     cursor: pointer;
-}
+    }
 
 .social-links-item:hover{
     background-color: #2196F3;  
+}
+
+.social-icons:hover {
+    fill:#FFFFFF;
 }
 
 
@@ -569,7 +581,14 @@ body{
     border: 1px solid #AFB1B8;
     border-radius: 4px;   
 }
-
 .customer-icons{
-    height: 46.7px;
+    width: 106px;
+    height: 60.04px;
 }
+.customer:hover{
+    border: 1px solid #2196F3;
+}
+.customer-icons:hover{
+    fill:#2196F3;
+}
+
