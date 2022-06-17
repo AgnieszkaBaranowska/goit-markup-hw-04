@@ -71,7 +71,9 @@ body{
     text-decoration: none;
 }
 /* kontakty w nagłówku */
-
+.header-contact{
+    display: flex;
+}
 .e-mail{
     text-decoration: none;
     color: #757575;
@@ -87,6 +89,17 @@ body{
 .e-mail:hover{
     color:#2196F3;
 }
+
+.icon-envelop,
+.icon-smartphone{
+fill: #757575;
+}
+
+.contact-email:hover svg,
+.contact-phone:hover svg{
+    fill:#2196F3;
+}
+
 .phone-number{
     text-decoration: none;
     color: #757575;
@@ -101,6 +114,8 @@ body{
 .phone-number:hover{
     color:#2196F3;
 }
+
+
 
 .contact{
     display: inline-flex;        
@@ -194,6 +209,7 @@ body{
         width: 20px;
         height: 20px;
         align-items: center; 
+        fill: #FFFFFF;
     }
     
 .footer-social-links-item{
@@ -527,6 +543,7 @@ body{
     width: 20px;
     height: 20px;
     align-items: center; 
+    fill: #AFB1B8;
     
 }
 
@@ -541,12 +558,13 @@ body{
     }
 
 .social-links-item:hover{
-    background-color: #2196F3;  
+    background-color: #2196F3;     
+}
+.social-links-item:hover svg{
+    fill: #FFFFFF;
 }
 
-.social-icons:hover {
-    fill:#FFFFFF;
-}
+
 
 
   
@@ -584,11 +602,12 @@ body{
 .customer-icons{
     width: 106px;
     height: 60.04px;
+    fill:#AFB1B8;
 }
 .customer:hover{
     border: 1px solid #2196F3;
 }
-.customer-icons:hover{
+.customer:hover svg{
     fill:#2196F3;
 }
 
