@@ -16,10 +16,14 @@ body{
 }
 
 /* nagłówek */
-.page-header{
-    background-color: #FFFFFF;
+
+header{
     border-bottom: 1px solid #ECECEC;
     height: 80px;
+}
+.page-header{
+    background-color: #FFFFFF;
+    
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -301,19 +305,19 @@ fill: #757575;
 }
 .project{
     box-sizing: border-box;
-    
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 404px;
     margin: 0px;
     padding: 0px;
     margin-bottom: 30px;
-    
+    cursor: pointer;
 }
 .project:hover{
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-   }
+    
+}
 
 .project-name{
     width: 322px;
